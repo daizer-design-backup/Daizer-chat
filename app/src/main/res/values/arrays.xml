@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+  <string-array name="pref_led_color_entries">
+    <item>@string/preferences__green</item>
+    <item>@string/preferences__red</item>
+    <item>@string/preferences__blue</item>
+    <item>@string/preferences__orange</item>
+    <item>@string/preferences__cyan</item>
+    <item>@string/preferences__magenta</item>
+    <item>@string/preferences__white</item>
+    <item>@string/preferences__none</item>
+  </string-array>
+
+  <string-array name="pref_led_color_values" translatable="false">
+    <item>green</item>
+    <item>red</item>
+    <item>blue</item>
+    <item>yellow</item>
+    <item>cyan</item>
+    <item>magenta</item>
+    <item>white</item>
+    <item>none</item>
+  </string-array>
+
+  <string-array name="pref_led_blink_pattern_entries">
+    <item>@string/preferences__fast</item>
+    <item>@string/preferences__normal</item>
+    <item>@string/preferences__slow</item>
+  </string-array>
+
+  <string-array name="pref_led_blink_pattern_values" translatable="false">
+    <item>300,300</item>
+    <item>500,2000</item>
+    <item>3000,3000</item>
+  </string-array>
+
+  <string-array name="pref_repeat_alerts_entries">
+      <item>@string/preferences__never</item>
+      <item>@string/preferences__one_time</item>
+      <item>@string/preferences__two_times</item>
+      <item>@string/preferences__three_times</item>
+      <item>@string/preferences__five_times</item>
+      <item>@string/preferences__ten_times</item>
+  </string-array>
+
+  <string-array name="pref_repeat_alerts_values" translatable="false">
+      <item>0</item>
+      <item>1</item>
+      <item>2</item>
+      <item>3</item>
+      <item>5</item>
+      <item>10</item>
+  </string-array>
+
+  <string-array name="default_or_custom_values" translatable="false">
+      <item>default</item>
+      <item>custom</item>
+  </string-array>
+
+  <string-array name="default_or_custom_entries">
+      <item>@string/arrays__use_default</item>
+      <item>@string/arrays__use_custom</item>
+  </string-array>
+
+  <string-array name="mute_durations">
+      <item>@string/arrays__mute_for_one_hour</item>
+      <item>@string/arrays__mute_for_eight_hours</item>
+      <item>@string/arrays__mute_for_one_day</item>
+      <item>@string/arrays__mute_for_seven_days</item>
+      <item>@string/arrays__always</item>
+  </string-array>
+
+  <string-array name="recipient_vibrate_entries">
+      <item>@string/arrays__settings_default</item>
+      <item>@string/arrays__enabled</item>
+      <item>@string/arrays__disabled</item>
+  </string-array>
+
+  <string-array name="pref_notification_privacy_entries">
+      <item>@string/arrays__name_and_message</item>
+      <item>@string/arrays__name_only</item>
+      <item>@string/arrays__no_name_or_message</item>
+  </string-array>
+
+  <string-array name="pref_notification_privacy_values">
+      <item>all</item>
+      <item>contact</item>
+      <item>none</item>
+  </string-array>
+
+  <!-- discrete MIME type (the part before the "/") -->
+
+  <string-array name="pref_media_download_mobile_data_default">
+      <item>image</item>
+      <item>audio</item>
+  </string-array>
+
+  <string-array name="pref_media_download_wifi_default">
+      <item>image</item>
+      <item>audio</item>
+      <item>video</item>
+      <item>documents</item>
+  </string-array>
+
+  <string-array name="pref_media_download_roaming_default" />
+
+    <!-- RedPhone -->
+
+    <integer-array name="conversation_length_limit">
+        <item>0</item>
+        <item>5000</item>
+        <item>1000</item>
+        <item>500</item>
+        <item>100</item>
+    </integer-array>
+
+    <integer-array name="pref_message_font_quote_size_values">
+        <item>12</item>
+        <item>14</item>
+        <item>18</item>
+        <item>22</item>
+    </integer-array>
+
+    <string-array name="pref_notification_priority_entries">
+        <item>@string/arrays__default</item>
+        <item>@string/arrays__high</item>
+        <item>@string/arrays__max</item>
+    </string-array>
+
+    <string-array name="pref_notification_priority_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="MediaOverviewActivity_Sort_by">
+        <item>@string/MediaOverviewActivity_Newest</item>
+        <item>@string/MediaOverviewActivity_Oldest</item>
+        <item>@string/MediaOverviewActivity_Storage_used</item>
+    </string-array>
+
+    <string-array name="ExpireTimerSettingsFragment__labels">
+        <item>@string/ExpireTimerSettingsFragment__off</item>
+        <item>@string/ExpireTimerSettingsFragment__4_weeks</item>
+        <item>@string/ExpireTimerSettingsFragment__1_week</item>
+        <item>@string/ExpireTimerSettingsFragment__1_day</item>
+        <item>@string/ExpireTimerSettingsFragment__8_hours</item>
+        <item>@string/ExpireTimerSettingsFragment__1_hour</item>
+        <item>@string/ExpireTimerSettingsFragment__5_minutes</item>
+        <item>@string/ExpireTimerSettingsFragment__30_seconds</item>
+    </string-array>
+
+    <integer-array name="ExpireTimerSettingsFragment__values">
+        <item>0</item>
+        <item>2419200</item>
+        <item>604800</item>
+        <item>86400</item>
+        <item>28800</item>
+        <item>3600</item>
+        <item>300</item>
+        <item>30</item>
+    </integer-array>
+
+    <string-array name="CustomExpireTimerSelectorView__unit_labels">
+        <item>@string/CustomExpireTimerSelectorView__seconds</item>
+        <item>@string/CustomExpireTimerSelectorView__minutes</item>
+        <item>@string/CustomExpireTimerSelectorView__hours</item>
+        <item>@string/CustomExpireTimerSelectorView__days</item>
+        <item>@string/CustomExpireTimerSelectorView__weeks</item>
+    </string-array>
+
+    <string-array name="SoundsAndNotificationsSettingsFragment__mention_labels">
+        <item>@string/SoundsAndNotificationsSettingsFragment__always_notify</item>
+        <item>@string/SoundsAndNotificationsSettingsFragment__do_not_notify</item>
+    </string-array>
+
+    <string-array name="SoundsAndNotificationsSettingsFragment__call_labels">
+        <item>@string/SoundsAndNotificationsSettingsFragment__always_notify</item>
+        <item>@string/SoundsAndNotificationsSettingsFragment__do_not_notify</item>
+    </string-array>
+
+    <string-array name="SoundsAndNotificationsSettingsFragment__reply_labels">
+        <item>@string/SoundsAndNotificationsSettingsFragment__always_notify</item>
+        <item>@string/SoundsAndNotificationsSettingsFragment__do_not_notify</item>
+    </string-array>
+
+    <integer-array name="PlaybackSpeedToggleTextView__speeds">
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>50</item>
+    </integer-array>
+    <string-array name="PlaybackSpeedToggleTextView__speed_labels">
+        <item>@string/PlaybackSpeedToggleTextView__1x</item>
+        <item>@string/PlaybackSpeedToggleTextView__1p5x</item>
+        <item>@string/PlaybackSpeedToggleTextView__2x</item>
+        <item>@string/PlaybackSpeedToggleTextView__p5x</item>
+    </string-array>
+
+    <integer-array name="ConversationFragment__pinned_for_values">
+        <item>1</item>
+        <item>7</item>
+        <item>30</item>
+        <item>-1</item>
+    </integer-array>
+    <string-array name="ConversationFragment__pinned_for_labels">
+        <item>@string/ConversationFragment__24_hours</item>
+        <item>@string/ConversationFragment__7_days</item>
+        <item>@string/ConversationFragment__30_days</item>
+        <item>@string/ConversationFragment__forever</item>
+    </string-array>
+
+    <string-array name="filter_search_entries">
+        <item>@string/MemberSearchFragment__filter_all_members</item>
+        <item>@string/MemberSearchFragment__filter_admins</item>
+        <item>@string/MemberSearchFragment__filter_contacts</item>
+    </string-array>
+</resources>

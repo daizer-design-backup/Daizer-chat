@@ -28,17 +28,15 @@ jobs:
             -w /project \
             signal-android \
             ./gradlew assembleWebsiteProdRelease
-     
+
       - name: Find APK files
         run: |
           echo "Searching for APK files..."
-          find . -type f -name "*.apk" -print
+          find app/build/outputs -type f -name "*.apk" -print || true
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: Daizer-Chat-APK
-          path: |
-            **/*.apk
+          path: app/build/outputs/**/*.apk
           if-no-files-found: error
-      
